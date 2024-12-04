@@ -5,10 +5,7 @@ const find = require("../find");
 
 // Apply condition to element
 function findElement(element) {
-  if (element % 2 == 0) {
-    return true;
-  }
-  return false;
+  return element % 2 === 0;
 }
 
 // Invoke find function

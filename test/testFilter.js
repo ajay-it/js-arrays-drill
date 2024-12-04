@@ -5,10 +5,7 @@ const filter = require("../filter");
 
 // Apply condition to element
 function filterElement(element) {
-  if (element % 2 == 0) {
-    return true;
-  }
-  return false;
+  return element % 2 === 0;
 }
 
 // Invoke filter function
