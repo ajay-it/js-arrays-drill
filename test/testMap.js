@@ -5,7 +5,7 @@ const map = require("../map");
 
 // Double the element
 function doubleElement(element) {
-  return 2 * element;
+  return element ? 2 * element : undefined;
 }
 
 // Invoke map function

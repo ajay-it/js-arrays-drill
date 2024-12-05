@@ -4,8 +4,8 @@ const { elements } = require("../data");
 const reduce = require("../reduce");
 
 // Add the element
-function addElement(startingValue, element) {
-  return startingValue + element;
+function addElement(combinedResult, element) {
+  return element ? combinedResult + element : combinedResult;
 }
 
 // Invoke reduce function
